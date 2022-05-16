@@ -1,6 +1,10 @@
 
+import Explore from './pages/explore';
+
 function App() {
-  return ("");
+  return (
+    <Explore></Explore>
+  );
 }
 
 export default App;
