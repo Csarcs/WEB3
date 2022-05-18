@@ -25,7 +25,7 @@ const NftCard = ({ image, id, title, address, description, attributes }) => {
                 })}
             </div>
         </div>
-    )
+    );
 }
 
 export default NftCard

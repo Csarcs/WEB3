@@ -1,4 +1,3 @@
-
 import Explore from './pages/explore';
 
 function App() {
