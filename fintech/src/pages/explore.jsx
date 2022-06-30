@@ -17,7 +17,7 @@ const Explore = () => {
                 <div className='flex flex-col items-center mb-12'>
                     <div className='mb-16 text-white text-center'>
                         <h1 className='text-5xl  font-bold font-body mb-2'>
-                            Cesar Guillermo
+                           <img src="https://www.cs.com.ve/images/ccp_logo_w.png"/>
                         </h1>
                         <h2 className='text-4xl  font-bold font-body mb-3'>
                             Fintech Explorer
