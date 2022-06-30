@@ -17,11 +17,14 @@ const Explore = () => {
                 <div className='flex flex-col items-center mb-12'>
                     <div className='mb-16 text-white text-center'>
                         <h1 className='text-5xl  font-bold font-body mb-2'>
-                            Fintech Explorer
+                            Cesar Guillermo
                         </h1>
+                        <h2 className='text-4xl  font-bold font-body mb-3'>
+                            Fintech Explorer
+                        </h2>
                         <p>Check NTF own by an ETH Wallet</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center mb-4 w-2/6 gap-y-2 '>
+                    <div className='flex flex-col items-center justify-center mb-4 w-full max-w-[80%] gap-y-2 '>
                         <input className="border rounded-sm focus:outline-none py-2 px-3 w-full" value={owner} onChange={(e) => setOwner(e.target.value)} placeholder='Insert your wallet address'></input>
                         <input type="hidden" className="focus:outline-none rounded-sm py-2 px-3 w-full" value={contractAddress} onChange={(e) => setContractAddress(e.target.value)} placeholder='Insert NFT Contract address (optional)'></input>
                     </div>
